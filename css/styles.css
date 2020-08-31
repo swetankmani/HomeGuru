@@ -1,0 +1,159 @@
+/*...........................ID........................*/
+
+#title {
+
+   background-color: #364f6b;
+
+
+}
+#features{
+  padding : 7% 7%;
+ background-color: #FFFFFF;
+ position:relative;
+ /* z-index:1; */
+
+}
+#cta{
+    background-color: #364f6b;
+    padding: 2% 10%;
+    text-align: center;
+}
+#footer{
+  background-color:#FFFFFF;
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+/*...........................tag.........................*/
+
+h1{
+  font-family: "Montserrat-Black";
+/*  font-family: 'Ubuntu', sans-serif;*/
+font-size: 3.5rem;
+line-height:1.5;
+font-weight: 800;
+color: white;
+}
+h2{
+  font-family:"Montserrat";
+  font-size:3rem;
+font-weight: bold;
+color: white;
+
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+font-size: 3rem;
+
+}
+p{
+  color: #8F8F8F;
+
+}
+body{
+
+font-family: Montserrat;
+
+}
+/*..........................Class........................*/
+.container-fluid{
+padding: 1% 3% 28%;
+/* padding : 1% 1% 7%; */
+
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+}
+.nav-item{
+   padding: 0 43px;
+}
+.nav-link{
+font-size: 1.2rem;
+font-family:"Montserrat-light"
+}
+.download-button{
+margin: 5% 3% 5% 0;
+}
+ .title-image{
+  transform: rotate(25deg);
+  width: 70%;
+  position:absolute;
+  right: 30%;
+}
+.feature-box{
+  text-align: center;
+  padding : 5%;
+  margin-bottom: 1px;
+
+}
+.icon{
+  color: #364f6b;
+  padding-bottom: 1rem;
+}
+.icon:hover {
+  /* color: #364f6b; */
+
+  color: #318fb5;
+}
+
+/* testimonials */
+#testimonials{
+
+  background-color: #364f6b;
+  text-align: center;
+    color: #FFFF;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius:100%;
+  margin: 5%;
+}
+.carousel-item{
+  padding: 1% ;
+  margin-top: 100px;
+}
+
+/* .index{
+   position: relative;
+   z-index: 2;
+   margin-bottom: -60px;
+} */
+/* Press */
+#press{
+
+  background-color: #364f6b;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+width: 15%;
+margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-section{
+  padding : 3px 2px;
+}
+@media(max-width: 993px){
+#title{
+
+  text-align: center;
+}
+
+  .title-image{
+position:static;
+transform: rotate(0);
+  }
+}
+.Dogs{
+  color: white;
+}
